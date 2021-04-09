@@ -77,26 +77,4 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   color: red;
 }
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.addres-link {
-  font-weight: 600;
-}
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=zero-file.css.map */
