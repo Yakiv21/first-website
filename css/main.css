@@ -78,16 +78,38 @@ h1, h2, h3, h4, h5, h6 {
   color: red;
 }
 
-.nav {
+.logo {
+  margin-right: 35px;
+}
+
+.page-header {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0;
+}
+
+.container {
+  width: 1290px;
+  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .site-nav {
@@ -96,7 +118,213 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.addres-link {
+.navigation {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.addres-link__header {
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #1d253c;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.addres-link__header:hover {
+  color: #007188;
+}
+
+.addres-link__header.current {
+  position: relative;
+  color: #007188;
+}
+
+.addres-link__header.current::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 26px;
+  background-color: #007188;
+  border-radius: 2px;
+  -webkit-animation: line-current 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          animation: line-current 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-login:not(:last-child) {
+  margin-right: 39px;
+}
+
+.item-login > a {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 13px 30px;
+  border: 1px solid #fafafa;
+}
+
+.item-login > a:hover {
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  border-radius: 4px;
+}
+
+.hero {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 78px;
+  padding: 0 0;
+  position: relative;
+}
+
+.container-hero {
+  position: absolute;
+  left: 0;
+  bottom: 190px;
+  width: 450px;
+}
+
+.bello {
+  font-family: inherit;
+  color: #f46752;
+}
+
+.hero-title {
+  font-family: inherit;
   font-weight: 600;
+  font-size: 64px;
+  line-height: 1.06;
+  padding-bottom: 17px;
+}
+
+.text {
+  margin-bottom: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.price-link {
+  display: inline-block;
+  width: 220px;
+  height: 61px;
+  margin-right: 0;
+  padding: 20px 60px 20px 30px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+  background: #f46752;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.hero-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  padding: 0 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-secure {
+  width: 500px;
+  height: auto;
+}
+
+.img-secure {
+  width: 500px;
+  height: 436px;
+  margin-bottom: 20px;
+}
+
+.img-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #5a6482;
+}
+
+.text-secure {
+  width: 456px;
+  margin-top: 83px;
+  margin-left: 144px;
+}
+
+.section-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  color: #f46752;
+  margin-bottom: 26px;
+}
+
+.article-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.18;
+  color: #1d253c;
+  margin-bottom: 20px;
+}
+
+.article-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.58;
+  color: #5a6482;
+}
+
+.another-page {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 4.73;
+  color: #126f86;
 }
 /*# sourceMappingURL=main.css.map */

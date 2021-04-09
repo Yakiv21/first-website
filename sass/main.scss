@@ -1,3 +1,7 @@
-@import "./components/zero-file.scss";
-@import "./components/general-settings";
-@import "./components/header/header";
+@import "./utils/zero-file";
+@import "./utils/variables";
+@import "./utils/general-settangs";
+@import "./header/header";
+@import "./main/hero";
+@import "./main/secure-your-future";
+
