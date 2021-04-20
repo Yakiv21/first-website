@@ -1,0 +1,126 @@
+.section-services {
+    @extend %section;
+
+    padding: 160px 0 132px 0;
+}
+
+.container {
+    padding: 0 15px 0 15px;
+}
+
+.list-services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator-item {
+    @extend %services-item;
+
+    background-color: $bg_calculator;
+}
+
+.calculator-title {
+    @extend %services-titel;
+    width: 100%;
+    color: $color_calculator;
+
+    margin-bottom: 65px;
+}
+
+.calculator-text {
+    @extend %services-text;
+
+    color: $primery_text_color;
+
+    margin-bottom: 84px;
+}
+
+.calculator-link {
+    @extend %calculator;
+
+    color: $color_calculator;
+}
+
+.term-item {
+    @extend %services-item;
+
+    background-color: $bg_term
+}
+
+.term {
+    @extend %services-titel;
+
+    color: $color_term;
+
+    margin-bottom: 21px
+}
+
+.term-text {
+    @extend %services-text;
+
+    color: $primery_text_color;
+
+    margin-bottom: 70px;
+}
+
+.term-link {
+    @extend %calculator;
+
+    color: $color_term;
+}
+
+.pricing-item {
+    @extend %services-item;
+
+    background-color: $bg_pricing;
+}
+
+.pricing-titel {
+    @extend %services-titel;
+
+    color: $color_pricing;
+
+    margin-bottom: 63px;
+}
+
+.pricing-text {
+    @extend %services-text;
+
+    color: $primery_text_color;
+
+    margin-bottom: 84px;
+}
+
+.pricing-link {
+    @extend %calculator;
+
+    color: $color_pricing;
+}
+
+.insurance-item {
+    @extend %services-item;
+
+    background-color: $bg_incurance;
+}
+
+.insurance-titel {
+    @extend %services-titel;
+
+    color: $color_insurance;
+
+    margin-bottom: 21px;
+}
+
+.insurance-text {
+    @extend %services-text;
+
+    color: $primery_text_color;
+
+    margin-bottom: 84px;
+}
+
+.insurance-link {
+    @extend %calculator;
+
+    color: $color_insurance;
+}

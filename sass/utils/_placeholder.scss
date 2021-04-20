@@ -1,0 +1,69 @@
+
+
+%services-titel {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.23;
+}
+
+%services-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+%primery-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 1.57;
+}
+
+
+%red-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;  
+}
+
+%title-text {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+%calculator {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+%services-item {
+    width: calc((100% - 4 * 30px) / 4);
+    margin: 15px;
+
+    padding: 40px 22px 33px 22px;
+}
+
+%container {
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+%section {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}

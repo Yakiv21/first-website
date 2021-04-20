@@ -1,0 +1,105 @@
+.section-hands {
+    @extend %section;
+    position: relative;
+
+    padding-bottom: 84px;
+}
+
+.umbrella {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -160%);
+    z-index: -4;
+
+}
+
+.container.hands {
+    display: block;
+}
+
+.section-hands {
+    text-align: center;
+}
+
+.text-hands {
+    padding: 91px 0 40px 0;
+}
+
+.section-title {
+    // text-align: center;
+    margin-bottom: 30px;
+}
+.article-title {
+        // text-align: center;
+        margin-bottom: 35px;
+
+}
+
+.article-text {
+    @extend %primery-text;
+
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.list-benefits {
+    display: flex;
+    // justify-content: space-between;
+}
+
+.benefits {
+    width: 320px;
+    height: 310px;
+    &:not(:last-child) {
+        margin-right: 60px;
+    }
+    justify-content: center;
+}
+
+.card-content{
+    text-align: center;
+}
+
+.benefits-title {
+    margin-bottom: 14px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.08;  
+}
+
+.benefits-text {
+    // // width: 212px;
+    // margin-left: auto;
+    // margin-right: auto;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 3;
+
+}
+
+.dog-img {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+
+.top-rated-svg {
+    padding: 70px 100px 15px 115px;
+}
+
+.experience-svg {
+    padding: 30px 115px 0 115px;
+}
+
+.insurance-svg {
+    padding: 44px 31px 0 31px;
+}

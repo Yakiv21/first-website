@@ -5,13 +5,21 @@
     margin-top: 78px;
     padding: 0 0;
 
-    position: relative;
 }
 
 .container-hero {
+    width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative
+}
+
+.containers-hero {
     position: absolute;
-    left: 0;
+
     bottom: 190px;
+
     width: 450px;
 }
 

@@ -1,6 +1,12 @@
+.section-help {
+    @extend %section;
+
+    padding-top: 148px;
+    padding-bottom: 163px;
+}
+
 .text-help {
-    width: 500px;
-    height: 257px;
+    // height: 257px;
 }
 
 .img-help {
@@ -14,10 +20,6 @@
     left: -45px;
     top: -48px;
     z-index: -1;
-}
-
-.img-family {
-    // padding-left: 23px;
 }
 
 .text-img-help {

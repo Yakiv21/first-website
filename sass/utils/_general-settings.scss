@@ -1,0 +1,16 @@
+// body {
+//     background-color: $white-color;
+//     color: $primery-text-color;
+//     font-family: 'Work Sans';
+//     letter-spacing: 0.03em;
+//   }
+
+.container {
+    width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    // display: block;
+    margin: 0 auto;
+    display: flex;
+}

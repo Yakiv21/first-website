@@ -1,0 +1,69 @@
+.section-how {
+    padding: 120px 0 105px 0;
+    background-color: $bg_section_dark;
+}
+.container.how {
+    display: block;
+}
+
+.afforable {
+    text-align: center;
+}
+.article-title.white {
+
+    color: $white_color;
+}
+
+.article-text.white {
+    padding-left: 185px;
+    padding-right: 185px;
+
+    color: $section_text_color;
+}
+
+.list-steps {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.item-steps {
+    width: 240px;
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+.steps-article {
+    display: block;
+    color: $white_color;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1px;
+    
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.steps-text {
+    color: $section_text_color;
+}
+
+.price-link.it {
+    text-align: center;
+    border: 0;
+    width: 100%;
+    // justify-content: center;
+    // width: 100%;
+}
+
+.a-price {
+    width: 210px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
